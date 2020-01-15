@@ -1,0 +1,48 @@
+body {
+  background-color: #F6D8D8;
+}
+#main-content {
+  position: fixed;
+  left: 220px;
+  height: 100%;
+  padding-left: 10px;
+  overflow: auto;
+  display: block;
+  margin-bottom: 20%;
+}
+#navbar {
+  postion: fixed;
+  left: 0;
+  width: 200px;
+}
+#navbar ul {
+  list-style-type: none;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  visibility: visible;
+}
+.nav-link {
+  padding: 3px;
+  border: 1px solid grey;
+}
+li a {
+  display: block;
+  padding: 1px 2px;
+  color: grey;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #E17F7F;
+  color: white;
+}
+h2 {
+  margin: 5px 0px 40px 0px;
+}
+#sdlc-pic {
+  width: 30%;
+  border: 1px solid grey;
+  float: right;
+  position: relativ;
+}
+@media (min-width: 600px) {}
